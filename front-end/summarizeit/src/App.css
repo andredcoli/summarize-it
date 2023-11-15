@@ -20,7 +20,7 @@
   animation: fadeIn 1s ease-in;
 }
 
-input[type="text"] {
+.input-field {
   margin-top: 20px;
   padding: 12px 20px;
   font-size: 16px;
@@ -33,7 +33,7 @@ input[type="text"] {
   animation: fadeIn 1s ease-in;
 }
 
-input[type="text"]:focus {
+.input-field:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 

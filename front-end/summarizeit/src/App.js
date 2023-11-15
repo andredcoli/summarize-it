@@ -36,10 +36,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Summarize it for me</h1>
-        <textarea 
+        <input
           value={inputText}
+          className="input-field"  // Add this line
           onChange={(e) => setInputText(e.target.value)}
-          placeholder="Enter text to summarize"
+          placeholder="Enter article to summarize"
         />
         <button className='summarize-button' onClick={handleSummarizeClick} disabled={isLoading}>
           {isLoading ? 'Summarizing...' : 'Summarize it'}
